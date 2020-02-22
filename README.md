@@ -27,7 +27,7 @@ Branch naming for development is labeled by **lastname-dev**. This will represen
 
 ### Branch Issue
 
-Branch naming for issues is labeled by **issue_id** This will represent the fixed or patch for the issue to be resolved. **(Ex. TTA1)**
+Branch naming for issues are labeled by **issue_id** This will represent the fixed or patch for the issue to be resolved. **(Ex. TTA1)**
 
 ### Issues
 
