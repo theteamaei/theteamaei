@@ -1,10 +1,6 @@
 # TheTeamAei
 
-The Official Website of TeamAei
-
-## Description
-
-This represents the TeamAei. All of the events and updates will be displayed here.
+The Official Website of TheTeamAei
 
 ## Members
 
