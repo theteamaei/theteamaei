@@ -1,4 +1,28 @@
+body {
+	font-family: Calibri !important;
+}
+
 .ta-purple {
 	background-color: #602484;
 	color: white;
+}
+
+.ta-logo {
+	font-weight: bold;
+	
+}
+
+.ta-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.ta-footer {
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
