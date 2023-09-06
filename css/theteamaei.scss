@@ -1,11 +1,96 @@
 @import url(theteamaei-colorpalette.css);
 
+
+$color-palette-ruby1: #FBE7E8;
+$color-palette-ruby2: #F5C3C4;
+$color-palette-ruby3: #EE9496;
+$color-palette-ruby4: #E66467;
+$color-palette-ruby5: #DF3539;
+$color-palette-ruby6: #DA1217;
+$color-palette-ruby7: #C31014;
+$color-palette-ruby8: #A30D11;
+$color-palette-ruby9: #8D0B0E;
+$color-palette-ruby10: #6C080B;
+
+$color-palette-amber1: #FEF2E5;
+$color-palette-amber2: #FDDFBD;
+$color-palette-amber3: #FCC888;
+$color-palette-amber4: #FBAF50;
+$color-palette-amber5: #FA9601;
+$color-palette-amber6: #F98300;
+$color-palette-amber7: #DF6F00;
+$color-palette-amber8: #CD6200;
+$color-palette-amber9: #BB5500;
+$color-palette-amber10: #A14100;
+
+$color-palette-emerald1: #EBF9F1;
+$color-palette-emerald2: #CBEFDC;
+$color-palette-emerald3: #A1E4BF;
+$color-palette-emerald4: #78D8A3;
+$color-palette-emerald5: #4DCC86;
+$color-palette-emerald6: #2AC371;
+$color-palette-emerald7: #25AF65;
+$color-palette-emerald8: #1F9254;
+$color-palette-emerald9: #1C7F49;
+$color-palette-emerald10: #156138;
+
+$color-palette-azure1: #E6F1FD;
+$color-palette-azure2: #BEDCFA;
+$color-palette-azure3: #8ABFF7;
+$color-palette-azure4: #55A3F3;
+$color-palette-azure5: #1C86EF;
+$color-palette-azure6: #0072ED;
+$color-palette-azure7: #0066D4;
+$color-palette-azure8: #0054B1;
+$color-palette-azure9: #004A99;
+$color-palette-azure10: #003876;
+
+$color-palette-turquoise1: #ECF8F8;
+$color-palette-turquoise2: #CFEEEE;
+$color-palette-turquoise3: #A8E1E1;
+$color-palette-turquoise4: #82D4D4;
+$color-palette-turquoise5: #5CC6C7;
+$color-palette-turquoise6: #40BDBE;
+$color-palette-turquoise7: #39A9AA;
+$color-palette-turquoise8: #2F8D8E;
+$color-palette-turquoise9: #297B7B;
+$color-palette-turquoise10: #1F5E5E;
+
+$color-palette-amethyst1: #F1EBFC;
+$color-palette-amethyst2: #DDCBF7;
+$color-palette-amethyst3: #C2A1F1;
+$color-palette-amethyst4: #A876EB;
+$color-palette-amethyst5: #8D4BE5;
+$color-palette-amethyst6: #7928E1;
+$color-palette-amethyst7: #6C23C9;
+$color-palette-amethyst8: #591DA8;
+$color-palette-amethyst9: #4E1A91;
+$color-palette-amethyst10: #3B1470;
+
+$color-palette-slate1: #FAFAFA;
+$color-palette-slate2: #E0E0E1;
+$color-palette-slate3: #C5C5C9;
+$color-palette-slate4: #BBBBBF;
+$color-palette-slate5: #8E8E95;
+$color-palette-slate6: #6F6F76;
+$color-palette-slate7: #525257;
+$color-palette-slate8: #3B3B3F;
+$color-palette-slate9: #28282A;
+$color-palette-slate10: #161618;
+
+$tta-brand-foreground: #602484;
+$tta-brand-background: #B427DD;
+
 html {
   overflow-y: hidden;
 }
 
 body {
   font-family: Calibri;
+}
+
+.tta-top {
+  height: 66px;
 }
 
 .tta-bar-logo {
@@ -23,20 +108,71 @@ body {
   margin-top: 3px;
 }
 
-.w3-bar-item:not(.tta-bar-logo):not(.tta-bar-header) {
+.w3-bar-item:not(.tta-bar-logo):not(.tta-bar-header):not(.tta-display-logo) {
   margin-top: 6px;
 }
 
-.tta-content {
+.tta-content-list {
   overflow-y: auto;
-  height: 100%;
+  height: calc(100vh - 108px);
   max-height: 1214px;
-  margin-top: 67px;
+  margin-top: 66px;
+}
+
+.tta-content {
+  height: auto;
+  max-width: 1500px;
+  margin-top: 15px;
+
+  &:first-of-type {
+    margin-top: 20px;
+  }
+
+  &:last-of-type {
+    margin-bottom: 40px;
+  }
 }
 
 .tta-header {
-  margin-top: 20px;
-  max-width: 1500px;
+  // margin-top: 20px;
+  max-width: 100vw;
+
+  img:not(.tta-display-logo) {
+    width: 100vw;
+  }
+
+  .tta-display {
+    h1 {
+      margin-top: 45px;
+
+      .tta-display-logo {
+        // width: 350px;
+        width: 13.9vw;
+        margin-top: -80px;
+      }
+      
+      .tta-display-brand {
+        // font-size: 150px;
+        font-size: 5.85vw;
+        font-weight: bold;
+
+        span:first-of-type {
+          color: $color-palette-amethyst10;
+        }
+        span:nth-child(2) {
+          color: $tta-brand-foreground;
+        }
+        
+        span:last-of-type {
+          color: $tta-brand-background;
+        }
+      }
+    }
+  }
+}
+
+.tta-member {
+  margin-right: 20px;
 }
 
 .tta-blog-list {
@@ -45,7 +181,8 @@ body {
 
     &:nth-child(odd) {
       margin-top: 40px;
-      background-color: #8D4BE5;
+      background-color: $color-palette-amethyst10;
+      color: $color-palette-slate1;
     }
 
     &:last-of-type {
@@ -63,4 +200,22 @@ body {
   .tta-build {
     padding-right: 10px;
   }
+}
+
+.tta-section-label {
+  h3 {
+    margin: unset;
+  }
+}
+
+textarea {
+  resize: none;
+}
+
+.input-half {
+  width: 49%;
+}
+
+.input-half:first-of-type {
+  margin-right: 14px;
 }

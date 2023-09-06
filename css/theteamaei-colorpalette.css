@@ -1,4 +1,562 @@
-@import url(theteamaei-standardpalette.css);
+.ruby1 {
+  color: #FBE7E8;
+}
+
+.ruby2 {
+  color: #F5C3C4;
+}
+
+.ruby3 {
+  color: #EE9496;
+}
+
+.ruby4 {
+  color: #E66467;
+}
+
+.ruby5 {
+  color: #DF3539;
+}
+
+.ruby6 {
+  color: #DA1217;
+}
+
+.ruby7 {
+  color: #C31014;
+}
+
+.ruby8 {
+  color: #A30D11;
+}
+
+.ruby9 {
+  color: #8D0B0E;
+}
+
+.ruby10 {
+  color: #6C080B;
+}
+
+.amber1 {
+  color: #FEF2E5;
+}
+
+.amber2 {
+  color: #FDDFBD;
+}
+
+.amber3 {
+  color: #FCC888;
+}
+
+.amber4 {
+  color: #FBAF50;
+}
+
+.amber5 {
+  color: #FA9601;
+}
+
+.amber6 {
+  color: #F98300;
+}
+
+.amber7 {
+  color: #DF6F00;
+}
+
+.amber8 {
+  color: #CD6200;
+}
+
+.amber9 {
+  color: #BB5500;
+}
+
+.amber10 {
+  color: #A14100;
+}
+
+.emerald1 {
+  color: #EBF9F1;
+}
+
+.emerald2 {
+  color: #CBEFDC;
+}
+
+.emerald3 {
+  color: #A1E4BF;
+}
+
+.emerald4 {
+  color: #78D8A3;
+}
+
+.emerald5 {
+  color: #4DCC86;
+}
+
+.emerald6 {
+  color: #2AC371;
+}
+
+.emerald7 {
+  color: #25AF65;
+}
+
+.emerald8 {
+  color: #1F9254;
+}
+
+.emerald9 {
+  color: #1C7F49;
+}
+
+.emerald10 {
+  color: #156138;
+}
+
+.azure1 {
+  color: #E6F1FD;
+}
+
+.azure2 {
+  color: #BEDCFA;
+}
+
+.azure3 {
+  color: #8ABFF7;
+}
+
+.azure4 {
+  color: #55A3F3;
+}
+
+.azure5 {
+  color: #1C86EF;
+}
+
+.azure6 {
+  color: #0072ED;
+}
+
+.azure7 {
+  color: #0066D4;
+}
+
+.azure8 {
+  color: #0054B1;
+}
+
+.azure9 {
+  color: #004A99;
+}
+
+.azure10 {
+  color: #003876;
+}
+
+.turquoise1 {
+  color: #ECF8F8;
+}
+
+.turquoise2 {
+  color: #CFEEEE;
+}
+
+.turquoise3 {
+  color: #A8E1E1;
+}
+
+.turquoise4 {
+  color: #82D4D4;
+}
+
+.turquoise5 {
+  color: #5CC6C7;
+}
+
+.turquoise6 {
+  color: #40BDBE;
+}
+
+.turquoise7 {
+  color: #39A9AA;
+}
+
+.turquoise8 {
+  color: #2F8D8E;
+}
+
+.turquoise9 {
+  color: #297B7B;
+}
+
+.turquoise10 {
+  color: #1F5E5E;
+}
+
+.amethyst1 {
+  color: #F1EBFC;
+}
+
+.amethyst2 {
+  color: #DDCBF7;
+}
+
+.amethyst3 {
+  color: #C2A1F1;
+}
+
+.amethyst4 {
+  color: #A876EB;
+}
+
+.amethyst5 {
+  color: #8D4BE5;
+}
+
+.amethyst6 {
+  color: #7928E1;
+}
+
+.amethyst7 {
+  color: #6C23C9;
+}
+
+.amethyst8 {
+  color: #591DA8;
+}
+
+.amethyst9 {
+  color: #4E1A91;
+}
+
+.amethyst10 {
+  color: #3B1470;
+}
+
+.slate1 {
+  color: #FAFAFA;
+}
+
+.slate2 {
+  color: #E0E0E1;
+}
+
+.slate3 {
+  color: #C5C5C9;
+}
+
+.slate4 {
+  color: #BBBBBF;
+}
+
+.slate5 {
+  color: #8E8E95;
+}
+
+.slate6 {
+  color: #6F6F76;
+}
+
+.slate7 {
+  color: #525257;
+}
+
+.slate8 {
+  color: #3B3B3F;
+}
+
+.slate9 {
+  color: #28282A;
+}
+
+.slate10 {
+  color: #161618;
+}
+
+.ruby1-bg {
+  background-color: #FBE7E8;
+}
+
+.ruby2-bg {
+  background-color: #F5C3C4;
+}
+
+.ruby3-bg {
+  background-color: #EE9496;
+}
+
+.ruby4-bg {
+  background-color: #E66467;
+}
+
+.ruby5-bg {
+  background-color: #DF3539;
+}
+
+.ruby6-bg {
+  background-color: #DA1217;
+}
+
+.ruby7-bg {
+  background-color: #C31014;
+}
+
+.ruby8-bg {
+  background-color: #A30D11;
+}
+
+.ruby9-bg {
+  background-color: #8D0B0E;
+}
+
+.ruby10-bg {
+  background-color: #6C080B;
+}
+
+.amber1-bg {
+  background-color: #FEF2E5;
+}
+
+.amber2-bg {
+  background-color: #FDDFBD;
+}
+
+.amber3-bg {
+  background-color: #FCC888;
+}
+
+.amber4-bg {
+  background-color: #FBAF50;
+}
+
+.amber5-bg {
+  background-color: #FA9601;
+}
+
+.amber6-bg {
+  background-color: #F98300;
+}
+
+.amber7-bg {
+  background-color: #DF6F00;
+}
+
+.amber8-bg {
+  background-color: #CD6200;
+}
+
+.amber9-bg {
+  background-color: #BB5500;
+}
+
+.amber10-bg {
+  background-color: #A14100;
+}
+
+.emerald1-bg {
+  background-color: #EBF9F1;
+}
+
+.emerald2-bg {
+  background-color: #CBEFDC;
+}
+
+.emerald3-bg {
+  background-color: #A1E4BF;
+}
+
+.emerald4-bg {
+  background-color: #78D8A3;
+}
+
+.emerald5-bg {
+  background-color: #4DCC86;
+}
+
+.emerald6-bg {
+  background-color: #2AC371;
+}
+
+.emerald7-bg {
+  background-color: #25AF65;
+}
+
+.emerald8-bg {
+  background-color: #1F9254;
+}
+
+.emerald9-bg {
+  background-color: #1C7F49;
+}
+
+.emerald10-bg {
+  background-color: #156138;
+}
+
+.azure1-bg {
+  background-color: #E6F1FD;
+}
+
+.azure2-bg {
+  background-color: #BEDCFA;
+}
+
+.azure3-bg {
+  background-color: #8ABFF7;
+}
+
+.azure4-bg {
+  background-color: #55A3F3;
+}
+
+.azure5-bg {
+  background-color: #1C86EF;
+}
+
+.azure6-bg {
+  background-color: #0072ED;
+}
+
+.azure7-bg {
+  background-color: #0066D4;
+}
+
+.azure8-bg {
+  background-color: #0054B1;
+}
+
+.azure9-bg {
+  background-color: #004A99;
+}
+
+.azure10-bg {
+  background-color: #003876;
+}
+
+.turquoise1-bg {
+  background-color: #ECF8F8;
+}
+
+.turquoise2-bg {
+  background-color: #CFEEEE;
+}
+
+.turquoise3-bg {
+  background-color: #A8E1E1;
+}
+
+.turquoise4-bg {
+  background-color: #82D4D4;
+}
+
+.turquoise5-bg {
+  background-color: #5CC6C7;
+}
+
+.turquoise6-bg {
+  background-color: #40BDBE;
+}
+
+.turquoise7-bg {
+  background-color: #39A9AA;
+}
+
+.turquoise8-bg {
+  background-color: #2F8D8E;
+}
+
+.turquoise9-bg {
+  background-color: #297B7B;
+}
+
+.turquoise10-bg {
+  background-color: #1F5E5E;
+}
+
+.amethyst1-bg {
+  background-color: #F1EBFC;
+}
+
+.amethyst2-bg {
+  background-color: #DDCBF7;
+}
+
+.amethyst3-bg {
+  background-color: #C2A1F1;
+}
+
+.amethyst4-bg {
+  background-color: #A876EB;
+}
+
+.amethyst5-bg {
+  background-color: #8D4BE5;
+}
+
+.amethyst6-bg {
+  background-color: #7928E1;
+}
+
+.amethyst7-bg {
+  background-color: #6C23C9;
+}
+
+.amethyst8-bg {
+  background-color: #591DA8;
+}
+
+.amethyst9-bg {
+  background-color: #4E1A91;
+}
+
+.amethyst10-bg {
+  background-color: #3B1470;
+}
+
+.slate1-bg {
+  background-color: #FAFAFA;
+}
+
+.slate2-bg {
+  background-color: #E0E0E1;
+}
+
+.slate3-bg {
+  background-color: #C5C5C9;
+}
+
+.slate4-bg {
+  background-color: #BBBBBF;
+}
+
+.slate5-bg {
+  background-color: #8E8E95;
+}
+
+.slate6-bg {
+  background-color: #6F6F76;
+}
+
+.slate7-bg {
+  background-color: #525257;
+}
+
+.slate8-bg {
+  background-color: #3B3B3F;
+}
+
+.slate9-bg {
+  background-color: #28282A;
+}
+
+.slate10-bg {
+  background-color: #161618;
+}
 
 .tta-purple {
 	background-color: #602484;
